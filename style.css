@@ -1,0 +1,28 @@
+body {
+  background: #ffffff;
+  padding-top: 16px;
+}
+
+#primary-second-hand,
+#primary-minute-hand,
+#primary-hour-hand {
+  transform-origin: 122px 122px;
+}
+
+#secondary-second-hand,
+#secondary-minute-hand,
+#secondary-hour-hand {
+  transform-origin: 122px 196px;
+}
+
+#power-reserve-hand {
+  transform-origin: 122px 70px;
+}
+
+div {
+  text-align: center;
+}
+
+svg {
+  max-width: 250px;
+}
